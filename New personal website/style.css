@@ -1,0 +1,66 @@
+
+
+body { background-color:#222; color:beige;  }
+
+Header { background-color:darkgoldenrod; display: flex; justify-content: flex-end; }
+
+ 
+
+
+
+ 
+nav:hover {font-size: 25px;}
+
+
+
+/* Imag formating for about page*/
+
+.snapshot { width: 450px; height: 500px; margin: 6% 0% 10% 14.5%; border-radius: 10%; border-style:dashed; border-width: 50px; border-color: darkgoldenrod;
+
+ }
+
+ 
+
+.fullstacklogo {width: 200px; height: 200px; margin: 10% 0% 0% 25%; border-radius: 66%; border-style:double; border-width: 5px; border-color:darkgoldenrod;}
+
+.ramlogo {display: flex; align-items: flex-end; width: 200px; height: 200px; border-radius: 66%; margin: 7% 0% 0% 27%; border-style:double; border-width: 5px;border-color:darkgoldenrod; }
+
+.jayhawk {display: flex; align-items: flex-end; width: 205px; height: 200px; border-radius: 66%; margin: 9% 0% 0% 27%;border-style:double; border-width: 5px;border-color:darkgoldenrod;}
+/*--------------------------*/
+
+ /* Image formatting Home page */
+
+.mememe {width: 300px; height: 300px; border-style:double; border-width:10px; border-radius: 100%; border-color: darkgoldenrod;  margin: 50px 20px 20px 20px   
+
+ } 
+
+
+
+
+ .Quote {display: flex; justify-content: center; }
+
+table {display: flex; justify-content:center; }
+
+.greeting {display: flex; justify-content:center; }
+
+section { Height: 100px; width: 100px; border: .01px solid rgb(120, 115, 140); border-radius: 6% }
+
+main {display: flex;
+    justify-content: center;
+     width: 100vw; height:800px; margin:10px; ;}
+
+
+
+
+.left-section {width:25%; height: 750px; border-right:#222; border-bottom:#222}
+
+.center-section {width: 50%; height: 750px;border-left:#222}
+
+.right-section {width: 25%; height: 750px}
+
+
+
+h1 {display:flex;
+    justify-content: center; margin: 5% 0% 0% 2%; }
+   @media ( max-width: 768) {main{flex-direction: column;}
+}
